@@ -8,9 +8,10 @@ function App() {
 
   return (
     <>
+    <div id="box">
       < AddTodo/>
      <Todo/>
-   
+     </div>
      
     </>
   )

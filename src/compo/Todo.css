@@ -1,0 +1,46 @@
+/* Todo.css */
+
+/* Styling for the container box */
+#box {
+  width: 90%;
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the list */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Styling for each list item */
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Styling for the remove button */
+button {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c82333;
+}

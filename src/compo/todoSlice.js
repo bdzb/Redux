@@ -10,7 +10,7 @@ export const todoSlice =createSlice({
   reducers:{
     addtodo:(state,action)=>{
       const todo={
-        id:nanoid,
+        id:nanoid(),
         text:action.payload
       }
       state.todos.push(todo)
